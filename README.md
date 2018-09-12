@@ -12,7 +12,7 @@
 
 
 
-##**Here are some online resources that I like:**  
+## **Here are some online resources that I like:**  
 - [Book Website](http://bit.ly/1x8ldY3) 
 - [New Book](http://amzn.to/1pFMWzv) 
 - [API Docs](http://bit.ly/1dhrzxG) 
