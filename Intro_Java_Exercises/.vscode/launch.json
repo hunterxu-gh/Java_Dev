@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Lst9_1_TestCircle",
+            "request": "launch",
+            "mainClass": "Lst9_1_TestCircle"
+        }
+    ]
+}
