@@ -2,6 +2,18 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Lst9_11_TotalAtra",
+            "request": "launch",
+            "mainClass": "Lst9_11_TotalAtra"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Test",
+            "request": "launch",
+            "mainClass": "Test"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Lst9_1_TestCircle",
             "request": "launch",
             "mainClass": "Lst9_1_TestCircle"

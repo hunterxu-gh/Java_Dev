@@ -3,15 +3,15 @@
  */
 public class Lst9_6_CircleWithStaticMembers {
     public static void main(String[] args) {
-        Circle circle1 = new Circle();
+        Circle circle1 = new Circle1();
         System.out.println("C1: ");
         System.out.println("Radius: " + circle1.radius + " | Perimeter: " + circle1.getPerimeter() + " | Area: " + circle1.getArea());
         
-        Circle circle2 = new Circle(25);
+        Circle circle2 = new Circle1(25);
         System.out.println("C2: ");
         System.out.println("Radius: " + circle2.radius + " | Perimeter: " + circle2.getPerimeter() + " | Area: " + circle2.getArea());
         
-        Circle circle3 = new Circle(125);
+        Circle circle3 = new Circle1(125);
         System.out.println("C3: ");
         System.out.println("Radius: " + circle3.radius + " | Perimeter: " + circle3.getPerimeter() + " | Area: " + circle3.getArea());
         System.out.println("--------------------------");
@@ -30,7 +30,7 @@ class Circle {
         numOfObjects++; // the use of static varible
     }
 
-    Circle(double newRadius) {
+    Circle1(double newRadius) {
         radius = newRadius;
         numOfObjects++; // the use of static varible
     }
