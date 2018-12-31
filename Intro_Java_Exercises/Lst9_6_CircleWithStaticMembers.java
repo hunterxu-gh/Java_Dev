@@ -1,9 +1,7 @@
 /**
- * Lst9_1_TestCircle
- * 面向对象编程中类的编写的第1种形式：与主类成平行结构，只不过不能加访问限制符。
- * 比较推荐
+ * Lst9_6_CircleWithStaticMembers
  */
-public class Lst9_1_TestCircle {
+public class Lst9_6_CircleWithStaticMembers {
     public static void main(String[] args) {
         Circle circle1 = new Circle();
         System.out.println("C1: ");
@@ -16,17 +14,30 @@ public class Lst9_1_TestCircle {
         Circle circle3 = new Circle(125);
         System.out.println("C3: ");
         System.out.println("Radius: " + circle3.radius + " | Perimeter: " + circle3.getPerimeter() + " | Area: " + circle3.getArea());
+        System.out.println("--------------------------");
+        System.out.println("Number of Circle Objects: " + Circle.getNumOfObjects());
     }
 }
 class Circle {
     double radius;
 
-    Circle() { // called a constructor
+    // static varible
+    static int numOfObjects = 0;
+    
+    // called a constructor
+    Circle() { 
         radius = 1;
+        numOfObjects++; // the use of static varible
     }
 
     Circle(double newRadius) {
         radius = newRadius;
+        numOfObjects++; // the use of static varible
+    }
+
+    // the use of static method
+    static int getNumOfObjects() { 
+        return numOfObjects;
     }
 
     double getArea() {
