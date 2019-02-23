@@ -1,3 +1,5 @@
+package Intro_Java_Exercises;
+
 import java.util.Scanner;
 
 import javax.lang.model.util.ElementScanner6;

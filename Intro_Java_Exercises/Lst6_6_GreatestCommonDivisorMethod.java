@@ -1,3 +1,5 @@
+package Intro_Java_Exercises;
+
 import java.util.Scanner;
 /**
  * Lst_6_6_GreatestCommonDivisorMethod

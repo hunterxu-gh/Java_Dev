@@ -1,3 +1,5 @@
+package Intro_Java_Exercises;
+
 /**
  * Lst9_3_TV
  * 面向对象编程中类的编写的第1种形式：单独成一个类，通过另一个Java文件进行.调用

@@ -1,3 +1,5 @@
+package Intro_Java_Exercises;
+
 /**
  * Lst7_2_DeckOfCards
  */

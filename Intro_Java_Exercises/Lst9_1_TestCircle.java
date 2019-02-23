@@ -1,3 +1,5 @@
+package Intro_Java_Exercises;
+
 /**
  * Lst9_1_TestCircle
  * 面向对象编程中类的编写的第1种形式：与主类成平行结构，只不过不能加访问限制符。

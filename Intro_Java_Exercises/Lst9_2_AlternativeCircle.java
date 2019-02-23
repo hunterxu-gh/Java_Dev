@@ -1,3 +1,5 @@
+package Intro_Java_Exercises;
+
 /**
  * Lst9_2_AlternativeCircle
  * 面向对象编程中类的编写的第1种形式：与main放在同一个主类中，通过main调用直接测试

@@ -1,3 +1,5 @@
+package Intro_Java_Exercises;
+
 import java.util.Scanner;
 
 /**
@@ -6,11 +8,12 @@ import java.util.Scanner;
 public class Lst_6_8_Hex2Dec {
 
     public static int hexCharToDec(char ch) {
-        if (ch >= 'A' && ch <= 'F')
+        if (ch >= 'A' && ch <= 'F') // 把A-F转换为十进制的数， A = 10， B = 11，ch - A得出ch与A的差值，再+10 就得到了ch的十进制表示
             return 10 + ch - 'A'; // ch输入的是字符的ANSCII码
         else // ch is 0, 1, 2, 3, 4...9
-            return ch - 10;
+            return ch - '0';
     }
+    
     public static int hexToDec(String hex) {
         // Horner's algorithm
         int decValue = 0;

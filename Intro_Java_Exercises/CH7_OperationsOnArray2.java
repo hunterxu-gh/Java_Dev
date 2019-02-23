@@ -1,3 +1,5 @@
+package Intro_Java_Exercises;
+
 /**
  * CH7_OperationsOnArray2
  */
