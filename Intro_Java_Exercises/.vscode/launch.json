@@ -2,6 +2,60 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - TestFormatingPrint",
+            "request": "launch",
+            "mainClass": "TestFormatingPrint"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Recursion",
+            "request": "launch",
+            "mainClass": "Recursion"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BubbleSortReview",
+            "request": "launch",
+            "mainClass": "BubbleSortReview"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BubbleSort",
+            "request": "launch",
+            "mainClass": "BubbleSort"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - QuickSort",
+            "request": "launch",
+            "mainClass": "QuickSort"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MergeSortReview",
+            "request": "launch",
+            "mainClass": "MergeSortReview"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MergeSort",
+            "request": "launch",
+            "mainClass": "MergeSort"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - InsertSort",
+            "request": "launch",
+            "mainClass": "InsertSort"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - InsertSortReview",
+            "request": "launch",
+            "mainClass": "InsertSortReview"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - TestGeometricObject",
             "request": "launch",
             "mainClass": "TestGeometricObject"
